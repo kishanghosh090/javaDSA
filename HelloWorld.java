@@ -1,4 +1,4 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class HelloWorld {
 	public static void main(String args[]) {
@@ -33,20 +33,43 @@ public class HelloWorld {
 
 		// Input in JAVA-----------------------------
 
-		Scanner sc = new Scanner(System.in);
-		String input = sc.nextLine();
+		// Scanner sc = new Scanner(System.in);
+		// String input = sc.nextLine();
 
-		System.out.println(input);
+		// System.out.println(input);
 
-		String input2 = sc.next();
-		System.out.println(input2);
-		
-		int num1 = sc.nextInt();
-		int nunm2 = sc.nextInt();
-		
-		int product = num1 * nunm2;
-		System.out.println(product);
-		sc.close();
+		// String input2 = sc.next();
+		// System.out.println(input2);
+
+		// int num1 = sc.nextInt();
+		// int nunm2 = sc.nextInt();
+
+		// int product = num1 * nunm2;
+		// System.out.println(product);
+		// sc.close();
+
+		// int a = 23;
+		// long b = a;
+		// System.out.println(b);
+		// Type Casing--------------------
+
+		int marks = (int) 999.54f;
+		System.out.println(marks);
+
+		// short a = 6;
+		// byte b = 34;
+		// char c = 'c';
+		// byte bt = (byte) (a + b + c);
+
+		// System.out.println(bt);
+
+		int a = 1232131232;
+		float b = 20.354f;
+		long c = 12345678;
+		double d = 1232131232.123123;
+		double ans = a + b + c + d;
+		System.out.println(a);
+
 
 	}
 }
